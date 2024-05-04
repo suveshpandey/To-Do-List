@@ -190,7 +190,7 @@ ul li span:hover{
     
     }
 }
-@media only screen and (max-width: 350px) and (orientation: portrait) {
+@media only screen and (min-width: 300px) and ( max-width: 375px) and (orientation: portrait) {
 
     .todo-app{
         flex: auto;
@@ -198,6 +198,7 @@ ul li span:hover{
         align-items: center;
         width: 100%;
         max-width: 540px;
+        width: max-content;
         background: white;
         margin: 100px auto 20px;
         padding: 40px 1px 70px;
