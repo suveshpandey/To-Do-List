@@ -7,12 +7,18 @@
     
 }
 .container{
+    flex: auto;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
 .todo-app{
+    flex: auto;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 540px;
     background: white;
@@ -122,6 +128,58 @@ ul li span:hover{
 @media only screen and (max-width: 376px) and (orientation: portrait) {
 
     .todo-app{
+        flex: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 540px;
+        background: white;
+        margin: 100px auto 20px;
+        padding: 40px 10px 70px;
+        border-radius: 10px;
+        border: 3px solid rgb(111, 255, 0);
+    
+    }
+}
+@media only screen and (max-width: 360px) and (orientation: portrait) {
+
+    .todo-app{
+        flex: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 640px;
+        background: white;
+        margin: 100px auto 20px;
+        padding: 40px 10px 70px;
+        border-radius: 10px;
+        border: 3px solid rgb(111, 255, 0);
+    
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #e1e2e6;
+        border-radius: 30px;
+        padding-left: 1%;
+        margin-bottom: 25px;
+    }
+    input{
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 391px) and (orientation: portrait) {
+
+    .todo-app{
+        flex: auto;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         max-width: 540px;
         background: white;
